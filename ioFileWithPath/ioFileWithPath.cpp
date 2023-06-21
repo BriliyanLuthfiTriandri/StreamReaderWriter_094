@@ -30,7 +30,6 @@ int main() {
 	//selesai dalam menulis sekarang tutup filenya
 	outfile.close();
 
-
 	//membuka file dalam bentuk mode membaca 
 	ifstream infile;
 
@@ -47,5 +46,7 @@ int main() {
 			//dan tampilkan di sini
 			cout << baris << '\n';
 		}
+		//tutup file tersebut setelah selesai
+		infile.close();
 	}
 }  
