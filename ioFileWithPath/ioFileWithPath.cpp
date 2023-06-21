@@ -9,4 +9,5 @@ int main() {
 
 	cout << "Masukan Nama File : ";
 	cin >> NamaFile; 
+
 }  
