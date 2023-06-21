@@ -44,7 +44,8 @@ int main() {
 		//melakukan perulangan loop setiap baris
 		while (getline(infile, baris))
 		{
-
+			//dan tampilkan di sini
+			cout << baris << '\n';
 		}
 	}
 }  
